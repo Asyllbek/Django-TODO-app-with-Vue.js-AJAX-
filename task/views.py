@@ -26,7 +26,7 @@ class TaskView(View):
             new_task = bound_form.save()
             return JsonResponse({'task': model_to_dict(new_task)}, status=200)
 
-        return redirect('ta')
+        return redirect('tasks_list_url')
 
 
 class TaskComplete(View):

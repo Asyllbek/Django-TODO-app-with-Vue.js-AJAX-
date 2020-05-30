@@ -9,6 +9,8 @@ from django.forms.models import model_to_dict
 from .models import Task
 from .forms import TaskForm
 
+# 1 Test commit
+
 
 class TaskView(View):
     def get(self, request):

@@ -98,7 +98,7 @@ target/
 __pycache__/
 local_settings.py
 
-.env
+env.
 db.sqlite3
 
 # AJAX
@@ -119,3 +119,4 @@ logs
 results
 node_modules
 npm-debug.log
+db.sqlite3
